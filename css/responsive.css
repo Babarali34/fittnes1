@@ -1,0 +1,98 @@
+@media all and (min-width: 721px) and (max-width: 790px)
+	
+{
+	header #landing-text h1{
+		font-size: 45px; 
+	}
+	
+	header #landing-text {
+margin-top:-200px;
+	}
+	.online_boking .container img{
+		width: auto;
+		height: 80%;
+	}
+	.online_boking .container form{
+	width: 100%;
+		margin-top: -200px;
+		margin-left: 15px;
+		height: 700px;
+}
+
+}@media all and (min-width: 800px) and (max-width: 920px){
+	
+		header #landing-text
+	{
+		padding-top: 90px;
+	padding-bottom: 90px;
+	}
+	header #landing-text h1{
+		font-size: 26px;
+	}
+	.online_boking .container img{
+		width: auto;
+		height: 80%;
+	}
+	.online_boking .container form{
+	width: 100%;
+		margin-left: 15px;
+		height: 700px;
+}	.online_boking .container form input{
+	    width: 40%;
+	background: transparent;
+		border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 4px solid red;
+	
+}	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fa7c30;
+  opacity: 1; /* Firefox */
+}
+	
+}
+	@media all and (min-width: 200px) and (max-width: 720px){
+	
+	h1{
+		font-size: 26px;
+	}
+header {
+	background-image:url("../images/header replace image.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	max-height:500px;
+	padding-bottom: 30px;
+
+	}
+	header #landing-text
+	{
+		padding-top: 90px;
+	padding-bottom: 90px;
+	}
+	header #landing-text h1{
+		font-size: 26px;
+	}
+	.online_boking .container{
+	display: none;
+}
+	hr{
+		height: 50px;
+	}
+	
+	/*--------------
+wellcome_to_fittness
+-----------------------------*/
+.wellcome_to_fittness{
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background: #ffff;
+	text-align: center;
+}
+.card{
+	background: #f1f4f6;
+	border: none;
+	width: 100%;
+}
+		
+}
